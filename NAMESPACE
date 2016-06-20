@@ -1,1 +1,1 @@
-export(mergeVectors)
+export(mergeVectors, lastElement)
