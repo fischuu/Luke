@@ -1,5 +1,5 @@
-\name{last}
-\alias{last}
+\name{lastElement}
+\alias{lastElement}
 
 \title{
  Taking last element of a vector
@@ -9,7 +9,7 @@
 Taking last element of a vector
 }
 \usage{
-  last(x)
+  lastElement(x)
 }
 
 \arguments{
@@ -30,7 +30,7 @@ Taking last element of a vector
 
 \examples{
 x <- 1:10
-last(x)
+lastElement(x)
 }
 
 \keyword{methods}

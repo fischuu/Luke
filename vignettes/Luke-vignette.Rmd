@@ -1,0 +1,37 @@
+---
+title: "Luke Vignette"
+author: "Daniel Fischer"
+date: "July 4, 2016"
+output: pdf_document
+---
+
+```{r projectSetup, echo=FALSE, warning=FALSE, message=FALSE}
+  rm(list=ls())
+  library(rmarkdown)
+  library(knitr)
+  library(xtable)
+  library(Luke)
+  opts_chunk$set(tidy=TRUE, 
+                 echo=TRUE, 
+                 warning=FALSE, 
+                 message=FALSE,
+                 dev=c("png","pdf"),
+                 fig.path='./Figures/')
+  options(stringsAsFactors = FALSE)
+```
+
+# Introduction
+
+The Luke package is a loose collection of subfunctions that are repeatedly used in other packages.
+
+# Vector manipulation
+
+## Last element of a vector
+
+In order to extract the last element of a vector, the function `lastElement` can be used
+
+```{r}
+myVector <- sample(10)
+myVector
+lastElement(myVector)
+```

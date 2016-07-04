@@ -18,7 +18,7 @@
 }
 
 \details{
- Just a basic merging of vectyors, incase that the order of the vector differs, but the names intersect.
+ Just a basic merging of vectors, in case that the order of the vector differs, but the names intersect.
 }
 
 \value{
