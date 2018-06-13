@@ -1,1 +1,1 @@
-export(calculateOccurences,cleave.end, cleave.start, coevar, lastElement, loadCacheNonlazy, mergeVectors, substr.end, substr.start, table.line, untable, workspaceSize)
+export(calculateOccurences,cleave.end, cleave.start, coevar, lastElement, loadCacheNonlazy, mergeVectors, outersect, substr.end, substr.start, table.line, untable, workspaceSize)
