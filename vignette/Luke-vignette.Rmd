@@ -1,8 +1,0 @@
----
-title: "Luke Vignette"
-author: "Daniel Fischer"
-date: "June 20, 2016"
-output: pdf_document
----
-
-
