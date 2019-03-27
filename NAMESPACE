@@ -1,1 +1,3 @@
-export(calculateOccurences,cleave.end, cleave.start, coevar, lastElement, loadCacheNonlazy, mergeVectors, outersect, substr.end, substr.start, table.line, untable, workspaceSize, nthLargest)
+export(calculateOccurences,cleave.end, cleave.start, coevar, lastElement, loadCacheNonlazy, addPercent,
+       mergeVectors, outersect, substr.end, substr.start, table.line, untable, workspaceSize, nthLargest,
+       pwGenerator)
