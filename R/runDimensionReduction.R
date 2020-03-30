@@ -2,7 +2,7 @@
   library("ICS")
   library("tsne")
   library("RDRToolbox")
-  library("REPPlab")
+#  library("REPPlab")
   library("lle")
   library("kernlab")
   library("destiny")  
@@ -38,7 +38,7 @@ col <- c(rep("black",50), rep("red",50))
   pairs(lleres$Y[,1:5], col=col, pch=20 )
 
 # REPPlab
-  REPPres <- EPPlab(x.pca[,1:5], PPalg = "Tribe", PPindex = "KurtosisMin", n.simu = 100, maxiter = 200, sphere = TRUE)
-  plot(REPPres, type = "angles", which = 1:100)
-  pairs(REPPres, which = c(60, 80,100))
+#  REPPres <- EPPlab(x.pca[,1:5], PPalg = "Tribe", PPindex = "KurtosisMin", n.simu = 100, maxiter = 200, sphere = TRUE)
+#  plot(REPPres, type = "angles", which = 1:100)
+#  pairs(REPPres, which = c(60, 80,100))
   
