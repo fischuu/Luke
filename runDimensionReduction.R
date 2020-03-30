@@ -5,7 +5,7 @@
 #  library("REPPlab")
   library("lle")
   library("kernlab")
-  library("destiny")  
+#  library("destiny")  
   
 x <- matrix(runif(100000),ncol=100)
 colnames(x) <- paste("Sample",1:100)
