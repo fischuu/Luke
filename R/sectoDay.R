@@ -1,4 +1,5 @@
 sectoDay <- function(n){
+  n <- round(n)
   day <- n %/% (24 * 3600) 
   n <-  n %% (24 * 3600) 
   
