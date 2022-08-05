@@ -1,8 +1,8 @@
 Package: Luke
 Type: Package
 Title: Subfunctions for Data Handling
-Version: 0.0.1
-Date: 2016-07-04
+Version: 0.1.1
+Date: 2022-08-05
 Authors@R: c(person(given = "Daniel", family = "Fischer", role = c("aut","cre"), email = "daniel.fischer@luke.fi"))
 Author: Daniel Fischer [aut, cre]
 Maintainer: Daniel Fischer <daniel.fischer@luke.fi>
