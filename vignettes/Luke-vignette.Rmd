@@ -35,3 +35,12 @@ myVector <- sample(10)
 myVector
 lastElement(myVector)
 ```
+
+# Colours
+The package contains also a set of Luke colours that can be used to follow the Luke branding. The colours are available as vectors and can be accessed like this
+
+```{r}
+barplot(rep(300,7), col=lukeColours[1:7])
+barplot(rep(300,7), col=lukeColours.dark[1:7])
+barplot(rep(300,7), col=lukeColours.light[1:7])
+```
