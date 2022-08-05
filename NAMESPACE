@@ -1,3 +1,5 @@
 export(calculateOccurences,class.table, cleave.end, cleave.start, coevar, final, lastElement, loadCacheNonlazy, addPercent,
        mergeVectors, outersect, substr.end, substr.start, table.line, untable, workspaceSize, nthLargest,
        pwGenerator, sectoDay, clipboard, getTopN)
+
+export(lukeColours, lukeColours.primary, lukeColours.dark, lukeColours.light)
