@@ -2,5 +2,6 @@ LOG of the CHANGES in the package Luke
 
 Updates in version 0.1.*
 ###############################################################################
-2. Added the function vectorToDF()
+3: last_n_char() function added to extract the last n-characters from a string
+2: Added the function vectorToDF()
 1: Added the Luke Colours as lukeColours, lukeColours.primary, lukeColours.dark, lukeColours.light
