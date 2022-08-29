@@ -16,8 +16,8 @@
   \tabular{ll}{
     Package: \tab Luke\cr
     Type: \tab Package\cr
-    Version: \tab 0.1\cr
-    Date: \tab 2016-20-06\cr
+    Version: \tab 0.1.3\cr
+    Date: \tab 2022-08-29\cr
     License: \tab GPL\cr
     LazyLoad: \tab yes\cr
   }
